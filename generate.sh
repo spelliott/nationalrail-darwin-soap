@@ -1,0 +1,1 @@
+mkdir src && wsimport -B-XautoNameResolution -p com.github.spelliott.nationalrail.darwin -s src -extension -XadditionalHeaders https://lite.realtime.nationalrail.co.uk/OpenLDBWS/wsdl.aspx?ver=2016-02-16 && rm -rf com
